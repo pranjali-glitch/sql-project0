@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SQL Queries</title>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body onload="loadPage('sql')">
+
+<header>
+<h1>SQL Queries</h1>
+<p>All SQL queries performed on FreeSQL</p>
+<h1>DBMS Practical Queries</h1>
+
+<input 
+  type="text" 
+  id="searchInput" 
+  placeholder="Search query..." 
+  onkeyup="searchQueries()"
+/>
+
+<div id="output"></div>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="sql.html">SQL Queries</a>
+<a href="#">PL/SQL</a>
+</nav>
+
+<!-- 🔥 MAIN CONTAINER (yaha queries aayengi) -->
+<section id="queries-container">
+</section>
+
+<!-- 🔥 JS FILE LINK -->
+<script src="script.js"></script>
+
+</body>
+</html>
